@@ -19,6 +19,6 @@ npm run build
 
 This project is configured for deployment to:
 
-`https://meghrajh.github.io/HOTEL--RAJDHANI--PALACE/`
+`https://meghrajh.github.io/hotel-rajdhani-palace/`
 
 Push the repository to the `main` branch on GitHub and enable GitHub Pages with **GitHub Actions** as the source.
