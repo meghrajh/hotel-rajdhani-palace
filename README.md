@@ -1,6 +1,6 @@
 # Hotel Rajdhani Palace
 
-Modern restaurant website for Hotel Rajdhani Palace in Pune, built with React, Vite, and Tailwind CSS.
+Modern restaurant website for Hotel Rajdhani Palace in pusegon, built with React, Vite, and Tailwind CSS.
 
 ## Development
 
