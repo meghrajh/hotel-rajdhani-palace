@@ -339,13 +339,13 @@ function HomePage() {
     <div className="space-y-24">
       <section className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
         <div className="flex flex-col justify-center">
-          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-gold-300/30 bg-black/50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-maroon-700">
+          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-gold-300/30 bg-white/50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-maroon-700">
             satara's Royal Dining Destination
           </span>
-          <h1 className="font-heading text-5xl font-semibold leading-none text-white sm:text-6xl lg:text-7xl">
+          <h1 className="font-heading text-5xl font-semibold leading-none text-marron sm:text-6xl lg:text-7xl">
             Hotel Rajdhani Palace
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-cream/90">
+          <p className="mt-6 max-w-xl text-lg leading-8 text-marron/90">
             Authentic Taste of India served with regal hospitality, rich flavors, and a setting designed
             for memorable family dinners, celebrations, and elegant evenings out.
           </p>
@@ -358,7 +358,7 @@ function HomePage() {
             </Link>
             <Link
               to="/book-table"
-              className="inline-flex items-center justify-center rounded-full border border-gold-200/60 px-7 py-4 text-sm font-bold uppercase tracking-[0.25em] text-gold-100 transition hover:-translate-y-0.5 hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-full border border-black-200/60 px-7 py-4 text-sm font-bold uppercase tracking-[0.25em] text-black-100 transition hover:-translate-y-0.5 hover:bg-white/10"
             >
               Reserve Table
             </Link>
@@ -844,8 +844,8 @@ function Footer() {
     <footer className="border-t border-maroon-100 bg-maroon-950 text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.8fr] lg:px-8">
         <div>
-          <p className="font-heading text-4xl font-semibold text-gold-200">Hotel Rajdhani Palace</p>
-          <p className="mt-4 max-w-md text-base leading-7 text-white/75">
+          <p className="font-heading text-4xl font-semibold text-gold-400">Hotel Rajdhani Palace</p>
+          <p className="mt-4 max-w-md text-base leading-7 text-black/75">
             Royal Indian dining in satara with memorable food, warm service, and a versatile party hall for
             life's celebrations.
           </p>
@@ -874,7 +874,7 @@ function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 bg-white/5 transition hover:border-black-200/40 hover:text-black-100"
+                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/50 bg-black/50 transition hover:border-black-200/40 hover:text-black-100"
                 aria-label={link.label}
               >
                 <SocialIcon label={link.label} />
