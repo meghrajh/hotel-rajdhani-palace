@@ -13,7 +13,7 @@ const navLinks = [
 const highlights = [
   {
     title: "Fine Dining",
-    text: "Elegant interiors, handcrafted plating, and signature curries in a royal Pune setting.",
+    text: "Elegant interiors, handcrafted plating, and signature curries in a royal satara setting.",
   },
   {
     title: "Family Restaurant",
@@ -281,7 +281,7 @@ function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
 
         <button
           type="button"
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-gold-300/30 text-gold-100 md:hidden"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black-300/30 text-black-200 md:hidden"
           onClick={() => setMobileMenuOpen((open) => !open)}
           aria-label="Toggle menu"
         >
@@ -292,7 +292,7 @@ function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
       </div>
 
       {mobileMenuOpen ? (
-        <nav className="border-t border-white/10 bg-maroon-950/95 px-4 py-4 md:hidden">
+        <nav className="border-t border-black/10 bg-maroon-950/95 px-4 py-4 md:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-2">
             {navLinks.map((link) => (
               <NavLink
@@ -339,8 +339,8 @@ function HomePage() {
     <div className="space-y-24">
       <section className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
         <div className="flex flex-col justify-center">
-          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-gold-300/30 bg-white/50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-maroon-700">
-            Pune's Royal Dining Destination
+          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-gold-300/30 bg-black/50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-maroon-700">
+            satara's Royal Dining Destination
           </span>
           <h1 className="font-heading text-5xl font-semibold leading-none text-white sm:text-6xl lg:text-7xl">
             Hotel Rajdhani Palace
@@ -401,7 +401,7 @@ function HomePage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-8 rounded-[2rem] bg-maroon-950 px-6 py-8 text-white shadow-royal md:grid-cols-[0.95fr_1.05fr] md:px-10 md:py-10">
+        <div className="grid gap-8 rounded-[2rem] bg-maroon-950 px-6 py-8 text-black shadow-royal md:grid-cols-[0.95fr_1.05fr] md:px-10 md:py-10">
           <img
             src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80"
             alt="Party setup at Hotel Rajdhani Palace"
@@ -496,7 +496,7 @@ function AboutPage() {
       <div className="grid gap-10 lg:grid-cols-[1fr_0.85fr]">
         <div className="space-y-6 text-lg leading-8 text-charcoal/80">
           <p>
-            Since 2005, Hotel Rajdhani Palace has welcomed guests in Pune with a promise of rich Indian
+            Since 2005, Hotel Rajdhani Palace has welcomed guests in satara with a promise of rich Indian
             cuisine, attentive service, and spaces designed to make every meal feel special. From weekday
             lunches to festive dinners, our team brings care and consistency to every plate.
           </p>
@@ -511,7 +511,7 @@ function AboutPage() {
             At Hotel Rajdhani Palace, hospitality is not just service, it is tradition.
           </p>
           <div className="inline-flex rounded-full border border-gold-300/40 bg-gold-50 px-5 py-3 text-sm font-bold uppercase tracking-[0.28em] text-maroon-800">
-            Serving since 2005
+            Serving since 2009
           </div>
         </div>
 
@@ -556,7 +556,7 @@ function GalleryPage() {
               alt={image.alt}
               className="w-full break-inside-avoid rounded-[1.5rem] object-cover transition duration-500 group-hover:scale-105 group-hover:opacity-80"
             />
-            <span className="absolute inset-x-4 bottom-4 rounded-full bg-black/45 px-4 py-2 text-left text-sm font-medium text-white opacity-0 backdrop-blur transition group-hover:opacity-100">
+            <span className="absolute inset-x-4 bottom-4 rounded-full bg-black/45 px-4 py-2 text-left text-sm font-medium text-black opacity-0 backdrop-blur transition group-hover:opacity-100">
               {image.alt}
             </span>
           </button>
@@ -581,7 +581,7 @@ function GalleryPage() {
               alt={galleryImages[activeImage].alt}
               className="max-h-[80vh] rounded-[2rem] object-contain"
             />
-            <p className="mt-4 text-center text-sm uppercase tracking-[0.28em] text-white/80">
+            <p className="mt-4 text-center text-sm uppercase tracking-[0.28em] text-black/80">
               {galleryImages[activeImage].alt}
             </p>
           </div>
@@ -609,21 +609,21 @@ function ContactPage() {
       description="Reach out for reservations, private dining, family gatherings, or party hall bookings. We're open every day to welcome you with warmth."
     >
       <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
-        <div className="space-y-6 rounded-[2rem] bg-maroon-950 p-7 text-white shadow-royal">
+        <div className="space-y-6 rounded-[2rem] bg-maroon-950 p-7 text-black shadow-royal">
           <div>
             <p className="text-sm uppercase tracking-[0.32em] text-gold-200">Visit Us</p>
-            <h2 className="mt-3 font-heading text-4xl font-semibold">Hotel Rajdhani Palace, Pune</h2>
+            <h2 className="mt-3 font-heading text-4xl font-semibold">Hotel Rajdhani Palace, satara</h2>
           </div>
-          <div className="space-y-4 text-base leading-7 text-white/80">
-            <p>123 Palace Road, Shivajinagar, Pune, Maharashtra 411005</p>
-            <p>Phone: +91 98765 43210</p>
-            <p>Email: contact@rajdhanipalace.com</p>
+          <div className="space-y-4 text-base leading-7 text-black/80">
+            <p>satara pandharpur Road, pusegon, , Maharashtra 415502</p>
+            <p>Phone: +91 9960302671</p>
+            <p>Email: rajdhanipalace07@gmail.com</p>
             <p>Opening Hours: 11am - 11pm</p>
           </div>
           <div className="overflow-hidden rounded-[1.5rem] border border-white/10">
             <iframe
               title="Hotel Rajdhani Palace map"
-              src="https://www.google.com/maps?q=Pune&z=13&output=embed"
+              src="https://maps.app.goo.gl/i4feTnFVDjuXcAMMA?g_st=aw"
               className="h-80 w-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -846,19 +846,19 @@ function Footer() {
         <div>
           <p className="font-heading text-4xl font-semibold text-gold-200">Hotel Rajdhani Palace</p>
           <p className="mt-4 max-w-md text-base leading-7 text-white/75">
-            Royal Indian dining in Pune with memorable food, warm service, and a versatile party hall for
+            Royal Indian dining in satara with memorable food, warm service, and a versatile party hall for
             life's celebrations.
           </p>
-          <p className="mt-4 text-sm uppercase tracking-[0.3em] text-gold-100">
+          <p className="mt-4 text-sm uppercase tracking-[0.3em] text-gold-200">
             Satara pandharpur rode, pusegon, Satara 
           </p>
         </div>
 
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-gold-200">Quick Links</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-gold-300">Quick Links</p>
           <div className="mt-5 flex flex-col gap-3">
             {navLinks.map((link) => (
-              <Link key={link.path} to={link.path} className="text-white/75 transition hover:text-gold-100">
+              <Link key={link.path} to={link.path} className="text-black/75 transition hover:text-gold-100">
                 {link.label}
               </Link>
             ))}
@@ -866,7 +866,7 @@ function Footer() {
         </div>
 
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-gold-200">Connect</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-gold-300">Connect</p>
           <div className="mt-5 flex gap-3">
             {socialLinks.map((link) => (
               <a
@@ -874,14 +874,14 @@ function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-red-200/40 hover:text-red-100"
+                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 bg-white/5 transition hover:border-red-200/40 hover:text-red-100"
                 aria-label={link.label}
               >
                 <SocialIcon label={link.label} />
               </a>
             ))}
           </div>
-          <p className="mt-5 text-white/75">Open daily: 11am - 11pm</p>
+          <p className="mt-5 text-black/75">Open daily: 11am - 11pm</p>
         </div>
       </div>
     </footer>
