@@ -850,7 +850,7 @@ function Footer() {
             life's celebrations.
           </p>
           <p className="mt-4 text-sm uppercase tracking-[0.3em] text-gold-100">
-            123 Palace Road, Shivajinagar, Pune
+            Satara pandharpur rode, pusegon, Satara 
           </p>
         </div>
 
@@ -874,7 +874,7 @@ function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-gold-200/40 hover:text-gold-100"
+                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:border-red-200/40 hover:text-red-100"
                 aria-label={link.label}
               >
                 <SocialIcon label={link.label} />
