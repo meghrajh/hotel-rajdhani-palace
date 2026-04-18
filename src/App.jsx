@@ -220,7 +220,7 @@ const galleryImages = [
 ];
 
 const socialLinks = [
-  { label: "Instagram", href: "https://instagram.com" },
+  { label: "Instagram", href: "https://instagram.com/meghraj.7777" },
   { label: "Facebook", href: "https://facebook.com" },
   { label: "YouTube", href: "https://youtube.com" },
 ];
@@ -304,7 +304,7 @@ function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
                     "rounded-2xl px-4 py-3 text-sm font-medium transition",
                     isActive
                       ? "bg-gold-300 text-maroon-900"
-                      : "text-white/85 hover:bg-white/5 hover:text-gold-100",
+                      : "text-black/85 hover:bg-white/5 hover:text-gold-100",
                   ].join(" ")
                 }
               >
@@ -375,7 +375,7 @@ function HomePage() {
               className="h-[28rem] w-full object-cover sm:h-[34rem]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-maroon-950/70 via-transparent to-transparent" />
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+            <div className="absolute bottom-0 left-0 right-0 p-6 text-black">
               <p className="font-heading text-3xl">Serving royal feasts, family moments, and festive nights.</p>
             </div>
           </div>
@@ -490,13 +490,13 @@ function AboutPage() {
   return (
     <PageFrame
       eyebrow="About Us"
-      title="A Pune landmark for warm hospitality and timeless Indian flavors"
+      title="A satara landmark for warm hospitality and timeless Indian flavors"
       description="Hotel Rajdhani Palace blends heritage-inspired interiors with thoughtful service to create a dining destination that feels both celebratory and comforting."
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_0.85fr]">
         <div className="space-y-6 text-lg leading-8 text-charcoal/80">
           <p>
-            Since 2005, Hotel Rajdhani Palace has welcomed guests in satara with a promise of rich Indian
+            Since 2009, Hotel Rajdhani Palace has welcomed guests in satara with a promise of rich Indian
             cuisine, attentive service, and spaces designed to make every meal feel special. From weekday
             lunches to festive dinners, our team brings care and consistency to every plate.
           </p>
@@ -611,7 +611,7 @@ function ContactPage() {
       <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
         <div className="space-y-6 rounded-[2rem] bg-maroon-950 p-7 text-black shadow-royal">
           <div>
-            <p className="text-sm uppercase tracking-[0.32em] text-gold-200">Visit Us</p>
+            <p className="text-sm uppercase tracking-[0.32em] text-gold-400">Visit Us</p>
             <h2 className="mt-3 font-heading text-4xl font-semibold">Hotel Rajdhani Palace, satara</h2>
           </div>
           <div className="space-y-4 text-base leading-7 text-black/80">
@@ -711,7 +711,7 @@ function BookTablePage() {
       description="Pick your preferred date, time, and group size and we'll be ready with a table that suits your celebration, family outing, or intimate dinner."
     >
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-        <div className="space-y-6 rounded-[2rem] bg-gradient-to-br from-maroon-900 via-maroon-800 to-maroon-950 p-8 text-white shadow-royal">
+        <div className="space-y-6 rounded-[2rem] bg-gradient-to-br from-maroon-900 via-maroon-800 to-maroon-950 p-8 text-black shadow-royal">
           <p className="text-sm uppercase tracking-[0.32em] text-gold-200">Reservation Benefits</p>
           <h2 className="font-heading text-4xl font-semibold">Plan ahead for your perfect table</h2>
           <div className="space-y-4 text-base leading-8 text-white/80">
@@ -874,7 +874,7 @@ function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 bg-white/5 transition hover:border-red-200/40 hover:text-red-100"
+                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 bg-white/5 transition hover:border-black-200/40 hover:text-black-100"
                 aria-label={link.label}
               >
                 <SocialIcon label={link.label} />
