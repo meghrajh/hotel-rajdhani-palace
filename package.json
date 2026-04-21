@@ -8,6 +8,7 @@
     "dev:server": "node server/server.js",
     "dev:full": "node server/dev.js",
     "build": "vite build",
+    "build:pages": "vite build --base=/hotel-rajdhani-palace/ && node scripts/prepare-pages.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node server/server.js"
