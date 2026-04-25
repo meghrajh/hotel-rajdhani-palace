@@ -1,0 +1,22 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#EAF2DE"/>
+  <rect y="560" width="1200" height="240" fill="#C9A25E"/>
+  <rect y="510" width="1200" height="70" fill="#80A74D"/>
+  <circle cx="1040" cy="132" r="72" fill="#F3C548" fill-opacity="0.5"/>
+  <rect x="318" y="360" width="340" height="112" rx="18" fill="#2F7D32"/>
+  <rect x="590" y="272" width="118" height="128" rx="14" fill="#2F7D32"/>
+  <rect x="608" y="290" width="82" height="76" rx="10" fill="#CBE3F6"/>
+  <rect x="704" y="232" width="22" height="154" rx="8" fill="#1F3A1A"/>
+  <rect x="340" y="334" width="148" height="34" rx="14" fill="#F5C243"/>
+  <rect x="738" y="370" width="116" height="24" rx="12" fill="#2F7D32"/>
+  <circle cx="746" cy="496" r="92" fill="#222"/>
+  <circle cx="746" cy="496" r="48" fill="#D9D9D9"/>
+  <circle cx="746" cy="496" r="18" fill="#222"/>
+  <circle cx="420" cy="518" r="56" fill="#222"/>
+  <circle cx="420" cy="518" r="28" fill="#D9D9D9"/>
+  <circle cx="420" cy="518" r="10" fill="#222"/>
+  <rect x="474" y="452" width="244" height="30" rx="15" fill="#1F3A1A"/>
+  <path d="M210 572C322 490 442 454 554 466C676 478 752 534 884 542C956 546 1038 530 1120 492V578H210V572Z" fill="#6E9B3E" fill-opacity="0.65"/>
+  <text x="600" y="654" text-anchor="middle" fill="#1F3A1A" font-family="Georgia, serif" font-size="54" font-weight="700">Rajdhani Tractor Contractors</text>
+  <text x="600" y="710" text-anchor="middle" fill="#355E22" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">FIELD SUPPORT AND TRACTOR SERVICES</text>
+</svg>

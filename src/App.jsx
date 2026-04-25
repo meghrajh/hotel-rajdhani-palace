@@ -229,8 +229,7 @@ const ownerBusinesses = [
   {
     name: "Rajdhani Timber Merchant",
     description: "Supplying quality timber and wood materials for homes, interiors, and construction needs.",
-    image:
-      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+    image: `${import.meta.env.BASE_URL}timber-merchant.svg`,
   },
   {
     name: "Rajdhani Poultry Farms",
@@ -241,8 +240,7 @@ const ownerBusinesses = [
   {
     name: "Rajdhani Tractor Contractors",
     description: "Providing tractor-based field support and contract services for seasonal agricultural work.",
-    image:
-      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80",
+    image: `${import.meta.env.BASE_URL}tractor-contractors.svg`,
   },
   {
     name: "Rajdhani Farming",

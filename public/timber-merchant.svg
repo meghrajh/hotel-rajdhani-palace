@@ -1,0 +1,23 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#F7E8D6"/>
+  <rect y="560" width="1200" height="240" fill="#E7C59B"/>
+  <circle cx="980" cy="160" r="68" fill="#F2C14E" fill-opacity="0.45"/>
+  <rect x="120" y="150" width="960" height="390" rx="34" fill="#FFF7EF" stroke="#8B3A2E" stroke-opacity="0.16" stroke-width="6"/>
+  <rect x="182" y="232" width="520" height="72" rx="36" fill="#7A3E1D"/>
+  <circle cx="228" cy="268" r="28" fill="#D6A56A"/>
+  <circle cx="228" cy="268" r="9" fill="#7A3E1D"/>
+  <circle cx="656" cy="268" r="28" fill="#D6A56A"/>
+  <circle cx="656" cy="268" r="9" fill="#7A3E1D"/>
+  <rect x="244" y="332" width="520" height="72" rx="36" fill="#8B4A23"/>
+  <circle cx="290" cy="368" r="28" fill="#D6A56A"/>
+  <circle cx="290" cy="368" r="9" fill="#8B4A23"/>
+  <circle cx="718" cy="368" r="28" fill="#D6A56A"/>
+  <circle cx="718" cy="368" r="9" fill="#8B4A23"/>
+  <rect x="306" y="432" width="520" height="72" rx="36" fill="#A25A2C"/>
+  <circle cx="352" cy="468" r="28" fill="#D6A56A"/>
+  <circle cx="352" cy="468" r="9" fill="#A25A2C"/>
+  <circle cx="780" cy="468" r="28" fill="#D6A56A"/>
+  <circle cx="780" cy="468" r="9" fill="#A25A2C"/>
+  <text x="600" y="650" text-anchor="middle" fill="#6B271D" font-family="Georgia, serif" font-size="54" font-weight="700">Rajdhani Timber Merchant</text>
+  <text x="600" y="706" text-anchor="middle" fill="#8B3A2E" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">QUALITY WOOD AND TIMBER SUPPLIES</text>
+</svg>
