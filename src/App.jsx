@@ -225,6 +225,33 @@ const socialLinks = [
   { label: "YouTube", href: "https://youtube.com" },
 ];
 
+const ownerBusinesses = [
+  {
+    name: "Rajdhani Timber Merchant",
+    description: "Supplying quality timber and wood materials for homes, interiors, and construction needs.",
+    image:
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    name: "Rajdhani Poultry Farms",
+    description: "Focused on dependable poultry farming with care, hygiene, and consistent farm operations.",
+    image:
+      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    name: "Rajdhani Tractor Contractors",
+    description: "Providing tractor-based field support and contract services for seasonal agricultural work.",
+    image:
+      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    name: "Rajdhani Farming",
+    description: "Rooted in practical farming with a focus on land care, cultivation, and steady growth.",
+    image:
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+  },
+];
+
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -533,6 +560,32 @@ function AboutPage() {
           </div>
         </div>
       </div>
+
+      <section className="mt-16 space-y-8">
+        <div className="max-w-3xl space-y-3">
+          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-maroon-500">Other Businesses</p>
+          <h2 className="font-heading text-3xl text-maroon-950 sm:text-4xl">Ventures led by Meghraj Jadhav</h2>
+          <p className="text-base leading-7 text-charcoal/75">
+            Alongside Hotel Rajdhani Palace, Meghraj Jadhav is also connected with businesses rooted in
+            trade, farming, and agricultural services.
+          </p>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {ownerBusinesses.map((business) => (
+            <article
+              key={business.name}
+              className="overflow-hidden rounded-[1.75rem] border border-maroon-100 bg-white shadow-lg shadow-maroon-900/5"
+            >
+              <img src={business.image} alt={business.name} className="h-56 w-full object-cover" />
+              <div className="space-y-3 p-5">
+                <h3 className="font-heading text-2xl text-maroon-900">{business.name}</h3>
+                <p className="text-sm leading-7 text-charcoal/75">{business.description}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
     </PageFrame>
   );
 }
