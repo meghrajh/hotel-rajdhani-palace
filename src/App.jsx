@@ -517,15 +517,16 @@ function AboutPage() {
 
         <div className="space-y-6">
           <img
-            src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1200&q=80"
-            alt="Head chef of Hotel Rajdhani Palace"
+            src="/owner-meghraj-jadhav.jpeg"
+            alt="Meghraj Jadhav, owner of Hotel Rajdhani Palace"
             className="h-[32rem] w-full rounded-[2rem] object-cover shadow-royal"
           />
           <div className="rounded-[1.75rem] border border-maroon-100 bg-white p-6 shadow-lg shadow-maroon-900/5">
-            <p className="text-sm uppercase tracking-[0.3em] text-maroon-500">Kitchen Philosophy</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-maroon-500">Owner</p>
+            <p className="mt-2 font-heading text-3xl font-semibold text-maroon-900">Meghraj Jadhav</p>
             <p className="mt-3 text-base leading-7 text-charcoal/75">
-              Our chefs focus on balanced spice, slow-cooked gravies, freshly baked breads, and seasonal
-              ingredients that keep every dish vibrant, comforting, and unmistakably Indian.
+              Meghraj Jadhav carries forward the spirit of Hotel Rajdhani Palace with a focus on warm
+              hospitality, memorable family dining, and authentic Indian flavors served with pride.
             </p>
           </div>
         </div>
@@ -848,6 +849,9 @@ function Footer() {
           <p className="mt-4 max-w-md text-base leading-7 text-black/75">
             Royal Indian dining in satara with memorable food, warm service, and a versatile party hall for
             life's celebrations.
+          </p>
+          <p className="mt-4 text-sm uppercase tracking-[0.28em] text-gold-300">
+            Owner: Meghraj Jadhav
           </p>
           <p className="mt-4 text-sm uppercase tracking-[0.3em] text-gold-200">
             Satara pandharpur rode, pusegon, Satara 
