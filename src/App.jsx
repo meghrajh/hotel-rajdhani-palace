@@ -487,6 +487,8 @@ function MenuPage() {
 }
 
 function AboutPage() {
+  const ownerImage = `${import.meta.env.BASE_URL}owner-meghraj-jadhav.jpeg`;
+
   return (
     <PageFrame
       eyebrow="About Us"
@@ -517,7 +519,7 @@ function AboutPage() {
 
         <div className="space-y-6">
           <img
-            src="/owner-meghraj-jadhav.jpeg"
+            src={ownerImage}
             alt="Meghraj Jadhav, owner of Hotel Rajdhani Palace"
             className="h-[32rem] w-full rounded-[2rem] object-cover shadow-royal"
           />
