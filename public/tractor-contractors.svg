@@ -1,22 +1,40 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="800" fill="#EAF2DE"/>
-  <rect y="560" width="1200" height="240" fill="#C9A25E"/>
-  <rect y="510" width="1200" height="70" fill="#80A74D"/>
-  <circle cx="1040" cy="132" r="72" fill="#F3C548" fill-opacity="0.5"/>
-  <rect x="318" y="360" width="340" height="112" rx="18" fill="#2F7D32"/>
-  <rect x="590" y="272" width="118" height="128" rx="14" fill="#2F7D32"/>
-  <rect x="608" y="290" width="82" height="76" rx="10" fill="#CBE3F6"/>
-  <rect x="704" y="232" width="22" height="154" rx="8" fill="#1F3A1A"/>
-  <rect x="340" y="334" width="148" height="34" rx="14" fill="#F5C243"/>
-  <rect x="738" y="370" width="116" height="24" rx="12" fill="#2F7D32"/>
-  <circle cx="746" cy="496" r="92" fill="#222"/>
-  <circle cx="746" cy="496" r="48" fill="#D9D9D9"/>
-  <circle cx="746" cy="496" r="18" fill="#222"/>
-  <circle cx="420" cy="518" r="56" fill="#222"/>
-  <circle cx="420" cy="518" r="28" fill="#D9D9D9"/>
-  <circle cx="420" cy="518" r="10" fill="#222"/>
-  <rect x="474" y="452" width="244" height="30" rx="15" fill="#1F3A1A"/>
-  <path d="M210 572C322 490 442 454 554 466C676 478 752 534 884 542C956 546 1038 530 1120 492V578H210V572Z" fill="#6E9B3E" fill-opacity="0.65"/>
-  <text x="600" y="654" text-anchor="middle" fill="#1F3A1A" font-family="Georgia, serif" font-size="54" font-weight="700">Rajdhani Tractor Contractors</text>
-  <text x="600" y="710" text-anchor="middle" fill="#355E22" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">FIELD SUPPORT AND TRACTOR SERVICES</text>
+  <defs>
+    <linearGradient id="sky" x1="600" y1="40" x2="600" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFF2FF"/>
+      <stop offset="1" stop-color="#F7FCFF"/>
+    </linearGradient>
+    <linearGradient id="field" x1="600" y1="510" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#92B95D"/>
+      <stop offset="1" stop-color="#6D8E3B"/>
+    </linearGradient>
+    <linearGradient id="tractorBody" x1="352" y1="350" x2="826" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E8A2E"/>
+      <stop offset="1" stop-color="#1D5F22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="1018" cy="122" r="70" fill="#F5C84E"/>
+  <rect y="520" width="1200" height="280" fill="url(#field)"/>
+  <path d="M0 586C134 556 248 548 366 554C505 561 645 596 771 594C901 592 1018 556 1200 526V800H0V586Z" fill="#7DA34B"/>
+  <path d="M0 622C148 594 280 594 416 610C562 628 702 662 844 656C956 652 1063 627 1200 582V800H0V622Z" fill="#5E7F31"/>
+  <rect x="334" y="380" width="334" height="106" rx="18" fill="url(#tractorBody)"/>
+  <rect x="590" y="300" width="146" height="118" rx="18" fill="url(#tractorBody)"/>
+  <rect x="618" y="320" width="92" height="68" rx="12" fill="#B7DBF2"/>
+  <rect x="734" y="266" width="22" height="148" rx="8" fill="#2D2D2D"/>
+  <rect x="690" y="432" width="142" height="26" rx="12" fill="#245E20"/>
+  <rect x="358" y="350" width="138" height="34" rx="14" fill="#F0C13D"/>
+  <rect x="418" y="478" width="188" height="28" rx="14" fill="#26361C"/>
+  <path d="M794 470H877L910 438H816L794 470Z" fill="#1F4E1A"/>
+  <circle cx="770" cy="520" r="98" fill="#222222"/>
+  <circle cx="770" cy="520" r="70" fill="#F4D15A"/>
+  <circle cx="770" cy="520" r="44" fill="#C8C8C8"/>
+  <circle cx="770" cy="520" r="15" fill="#353535"/>
+  <circle cx="438" cy="540" r="60" fill="#222222"/>
+  <circle cx="438" cy="540" r="41" fill="#F4D15A"/>
+  <circle cx="438" cy="540" r="24" fill="#C8C8C8"/>
+  <circle cx="438" cy="540" r="8" fill="#353535"/>
+  <path d="M251 610C372 530 474 489 632 501C760 511 866 566 986 571C1036 573 1084 566 1142 548" stroke="#567729" stroke-width="16" stroke-linecap="round" stroke-opacity="0.3"/>
+  <text x="600" y="684" text-anchor="middle" fill="#244E1A" font-family="Georgia, serif" font-size="56" font-weight="700">Rajdhani Tractor Contractors</text>
+  <text x="600" y="736" text-anchor="middle" fill="#355F24" font-family="Arial, sans-serif" font-size="27" letter-spacing="3">TRACTOR WORK AND FIELD CONTRACT SERVICES</text>
 </svg>

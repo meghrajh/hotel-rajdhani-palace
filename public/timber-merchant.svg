@@ -1,23 +1,51 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="800" fill="#F7E8D6"/>
-  <rect y="560" width="1200" height="240" fill="#E7C59B"/>
-  <circle cx="980" cy="160" r="68" fill="#F2C14E" fill-opacity="0.45"/>
-  <rect x="120" y="150" width="960" height="390" rx="34" fill="#FFF7EF" stroke="#8B3A2E" stroke-opacity="0.16" stroke-width="6"/>
-  <rect x="182" y="232" width="520" height="72" rx="36" fill="#7A3E1D"/>
-  <circle cx="228" cy="268" r="28" fill="#D6A56A"/>
-  <circle cx="228" cy="268" r="9" fill="#7A3E1D"/>
-  <circle cx="656" cy="268" r="28" fill="#D6A56A"/>
-  <circle cx="656" cy="268" r="9" fill="#7A3E1D"/>
-  <rect x="244" y="332" width="520" height="72" rx="36" fill="#8B4A23"/>
-  <circle cx="290" cy="368" r="28" fill="#D6A56A"/>
-  <circle cx="290" cy="368" r="9" fill="#8B4A23"/>
-  <circle cx="718" cy="368" r="28" fill="#D6A56A"/>
-  <circle cx="718" cy="368" r="9" fill="#8B4A23"/>
-  <rect x="306" y="432" width="520" height="72" rx="36" fill="#A25A2C"/>
-  <circle cx="352" cy="468" r="28" fill="#D6A56A"/>
-  <circle cx="352" cy="468" r="9" fill="#A25A2C"/>
-  <circle cx="780" cy="468" r="28" fill="#D6A56A"/>
-  <circle cx="780" cy="468" r="9" fill="#A25A2C"/>
-  <text x="600" y="650" text-anchor="middle" fill="#6B271D" font-family="Georgia, serif" font-size="54" font-weight="700">Rajdhani Timber Merchant</text>
-  <text x="600" y="706" text-anchor="middle" fill="#8B3A2E" font-family="Arial, sans-serif" font-size="28" letter-spacing="3">QUALITY WOOD AND TIMBER SUPPLIES</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="40" x2="600" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7EFE6"/>
+      <stop offset="1" stop-color="#E6C8A7"/>
+    </linearGradient>
+    <linearGradient id="shed" x1="600" y1="180" x2="600" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F0"/>
+      <stop offset="1" stop-color="#EFDCC5"/>
+    </linearGradient>
+    <linearGradient id="log1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6F3E22"/>
+      <stop offset="1" stop-color="#A6673A"/>
+    </linearGradient>
+    <linearGradient id="log2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7A4524"/>
+      <stop offset="1" stop-color="#B37244"/>
+    </linearGradient>
+    <linearGradient id="log3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#87502A"/>
+      <stop offset="1" stop-color="#C17D4D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect y="610" width="1200" height="190" fill="#D3AF7B"/>
+  <rect y="560" width="1200" height="70" fill="#B88B5A"/>
+  <rect x="120" y="150" width="960" height="420" rx="34" fill="url(#shed)" stroke="#8C5838" stroke-opacity="0.25" stroke-width="6"/>
+  <rect x="140" y="180" width="920" height="40" fill="#8B5A3C" fill-opacity="0.18"/>
+  <rect x="180" y="245" width="520" height="84" rx="42" fill="url(#log1)"/>
+  <circle cx="234" cy="287" r="34" fill="#D7AA77"/>
+  <circle cx="234" cy="287" r="13" fill="#865433"/>
+  <circle cx="648" cy="287" r="34" fill="#D7AA77"/>
+  <circle cx="648" cy="287" r="13" fill="#865433"/>
+  <rect x="230" y="350" width="560" height="84" rx="42" fill="url(#log2)"/>
+  <circle cx="284" cy="392" r="34" fill="#DEB282"/>
+  <circle cx="284" cy="392" r="13" fill="#8F5A38"/>
+  <circle cx="738" cy="392" r="34" fill="#DEB282"/>
+  <circle cx="738" cy="392" r="13" fill="#8F5A38"/>
+  <rect x="280" y="455" width="600" height="84" rx="42" fill="url(#log3)"/>
+  <circle cx="334" cy="497" r="34" fill="#E4BA8C"/>
+  <circle cx="334" cy="497" r="13" fill="#9B643D"/>
+  <circle cx="828" cy="497" r="34" fill="#E4BA8C"/>
+  <circle cx="828" cy="497" r="13" fill="#9B643D"/>
+  <rect x="770" y="240" width="190" height="250" rx="24" fill="#8D5E3D" fill-opacity="0.16"/>
+  <rect x="790" y="270" width="150" height="42" rx="16" fill="#6E462B"/>
+  <rect x="790" y="330" width="150" height="42" rx="16" fill="#83522F"/>
+  <rect x="790" y="390" width="150" height="42" rx="16" fill="#9A6238"/>
+  <path d="M145 586C230 562 328 550 432 552H1015C1054 552 1084 584 1084 623V645H145V586Z" fill="#7A4A2C" fill-opacity="0.12"/>
+  <text x="600" y="680" text-anchor="middle" fill="#6A321B" font-family="Georgia, serif" font-size="56" font-weight="700">Rajdhani Timber Merchant</text>
+  <text x="600" y="732" text-anchor="middle" fill="#8A4F2C" font-family="Arial, sans-serif" font-size="27" letter-spacing="3">TIMBER STACKS AND WOOD SUPPLIES</text>
 </svg>
